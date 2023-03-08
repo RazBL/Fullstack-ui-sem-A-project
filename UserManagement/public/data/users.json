@@ -1,0 +1,50 @@
+[
+    {
+        "username":"SunSun",
+        "password":"sunsun",
+        "image":"https://t3.ftcdn.net/jpg/01/19/18/92/360_F_119189251_kiyixdA3xj8dcCimKuVa4e5DcuslHJPs.jpg",
+        "firstName":"Sun",
+        "lastName":"Sunny",
+        "email":"s@s.com",
+        "birthDate":"01/01/1975",
+        "city":"Tel Aviv",
+        "street":"Shenkar",
+        "streetNumber": 10
+    },
+    {
+        "username":"Rain",
+        "password":"RainRain",
+        "image":"https://escapetrailer.com/wp-content/uploads/2020/07/Escape-Rainy-Day-scaled.jpeg",
+        "firstName":"Rain",
+        "lastName":"Rainy",
+        "email":"r@r.com",
+        "birthDate":"02/02/1965",
+        "city":"Jerusalem",
+        "street":"King George",
+        "streetNumber": 56
+    },
+    {
+        "username":"Wind",
+        "password":"wind123",
+        "image":"https://media.istockphoto.com/id/1081441380/photo/close-and-far-at-the-lake.jpg?b=1&s=170667a&w=0&k=20&c=58p3nSV4fK7m9n_Ul9gdXdg42IAmQTZmiuhOlwBXMeY=",
+        "firstName":"Wind",
+        "lastName":"Windy",
+        "email":"w@w.com",
+        "birthDate":"03/03/1955",
+        "city":"Haifa",
+        "street":"Hertzel",
+        "streetNumber": 111
+    },
+    {
+        "username":"Snow123",
+        "password":"Snow123",
+        "image":"https://img.apmcdn.org/abbc28bdd258e1d4944dc5655fe8b46931ba0ed8/uncropped/42d1e4-20120713-winter-landscape.jpg",
+        "firstName":"Snow",
+        "lastName":"Snowy",
+        "email":"snow@snow.com",
+        "birthDate":"04/04/1945",
+        "city":"Afula",
+        "street":"Test",
+        "streetNumber": 72
+    }
+]
