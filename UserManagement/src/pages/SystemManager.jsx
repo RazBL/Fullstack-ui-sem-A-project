@@ -26,6 +26,7 @@ export default function SystemManager() {
                   <tr className=''>
                     <th>Username</th>
                     <th>Full Name</th>
+                    <th>Birth date</th>
                     <th>Email</th>
                     <th>Address</th>
                     <th></th>
@@ -45,6 +46,7 @@ export default function SystemManager() {
                             </div>
                           </td>
                           <td className="align-middle">{u.firstName} {u.lastName}</td>
+                          <td className="align-middle">{u.birthDate}</td>
                           <td className="align-middle">{u.email}</td>
                           <td className="align-middle">{u.city} {u.street} {u.streetNumber}</td>
                           <td className="align-middle">
