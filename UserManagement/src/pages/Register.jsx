@@ -50,7 +50,7 @@ export default function Register() {
             alert("No negative numbers are allowed in a street number.")
         }
         else if (!CheckIfValidPassword(user.password)) {
-            alert("Password most contain 7-12 letters with at least 1 capital and 1 special")
+            alert("Password most contain 7-12 letters with at least 1 capital, unique letter and a number");
         }
         else if (CheckIfValidUsername(user.username)) {
             alert("username most be less than 60 letters and only in english")

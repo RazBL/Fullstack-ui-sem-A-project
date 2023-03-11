@@ -54,7 +54,8 @@ export default function EditProfile() {
             alert("No negative numbers are allowed in a street number.")
         }
         else if (!CheckIfValidPassword(user.password)) {
-            alert("Password most contain 7-12 letters with at least 1 uppercase and 1 unique")
+            alert("Password most contain 7-12 letters with at least 1 capital, special letter and a number");
+
         }
         else if (CheckIfValidUsername(user.username)) {
             alert("username most be less than 60 letters and only in english")
