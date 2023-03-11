@@ -24,10 +24,10 @@ export default function Register() {
 
     const { SetUsers, CheckIfValidCity, CheckIfUserExist, CheckIfValidDate, InputTextOnly, CheckIfValidPassword, CheckValidEmail, ValidateStreet, cities, CheckIfValidUsername } = useContext(Context);
 
-    const SaveImage = (file) => {
-        let profilePicture = URL.createObjectURL(file);
-        SetUser({...user, image: profilePicture});
-        console.log(profilePicture);
+    const SaveImage = (event) => {
+        let profilePicture = event.target.files[0];
+        profilePicture = URL.createObjectURL(profilePicture);
+        SetUser({ ...user, image: profilePicture });
     };
 
     const RegisterUser = (event) => {
@@ -97,7 +97,7 @@ export default function Register() {
                     <div className="row mb-3">
                         <label htmlFor="image-input" className="col-sm-2 col-form-label">Picture</label>
                         <div className="col-sm-10">
-                            <input type="file" accept=".jpeg, .jpg" id='image-input' className="form-control" required onChange={(event) => SaveImage(event.target.files[0])} />
+                            <input type="file" accept=".jpeg, .jpg" id='image-input' className="form-control" required onChange={SaveImage} />
                         </div>
                     </div>
                     <div className="row mb-3">

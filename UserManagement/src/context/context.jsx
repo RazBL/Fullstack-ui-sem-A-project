@@ -59,10 +59,10 @@ export default function ContextProvider({ children }) {
   }
 
   const CheckIfValidPassword = (password) => {
-    let validPassword = /[A-Z]/.test(password) && /[@_!.]/.test(password) && password.length > 6 && password.length <= 12;
+    let validPassword = /[A-Z]/.test(password) && /[@_!.]/.test(password) && /[0-9]/.test(password) && password.length > 6 && password.length <= 12;
     return validPassword;
   }
-
+  
 
   const ValidateStreet = (street) => {
     return /^[א-ת]+$/.test(street);
